@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+:root{
+    --col:#1e130c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#shadow{
+    text-shadow: 1rem 1rem 1rem white;
+    font-family: 'Fredoka One', cursive;
+font-family: 'Montagu Slab', serif;
+font-family: 'Rubik Beastly', cursive;
+
+    
+}
+.input{
+    padding: 0 3rem;
+}
+.child{
+    width: 36rem;
+    font-family: 'Fredoka One', cursive;
+font-family: 'Montagu Slab', serif;
+font-family: 'Rubik Beastly', cursive;
+}
+#active{
+    background-color: #bdc3c7;
+}
+.child h1{
+    padding: 1rem 0.5rem;
+    border: 1px solid white;
+}
+body{
+    height: 100vh;
+    display: flex;
+    width: auto;
+    /* align-items: center; */
+    justify-content: center;
+    /* position: relative; */
+  
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F); 
+}
+html{
+    font-size: 62.5%;
+
+}
+.btn{
+    padding: 1rem 8rem;
+}
+.child{
+    box-shadow: 2rem 2rem 2rem black;
+}
+button{
+    background-color: #43C6AC;
+    margin: center;
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: 1rem;
+    border-radius: 2px solid;
+    border-style: none;
+}
+button:hover{
+    background-color: #F3F9A7;
+}
+.child{
+    color: white;
+    margin-top: 5rem;
+    font-size: 1rem;
+    background-color: #414345;
+    /* position: absolute; */
+    padding: 1rem 0;
+    float: right;
+}
+.container{
+    margin:2rem 5rem;
+    font-size: 2rem;
+    /* position: relative; */
+    /* margin: 10rem 0; */
+     /* height: max-content; */
+     
+    
+  
+}
+.input input[type="text"]{
+  outline: none;
+  /* position: absolute; */
+  font-family: 'Fredoka One', cursive;
+  
+font-family: 'Montagu Slab', serif;
+font-family: 'Rubik Beastly', cursive;
+   width: 24rem;
+   height: 4rem;
+   font-size: 2rem;
+   margin: 1rem 0;
+   border-radius: 1rem;
+   box-shadow: 2rem 2rem 2rem;
+   border-color: white;
+}
